@@ -21,7 +21,7 @@ import argparse
 import sys
 import logging
 
-from second_bonus_physics1 import __version__
+#from second_bonus_physics1 import __version__
 
 __author__ = "Julian Bermudez"
 __copyright__ = "Julian Bermudez"
@@ -60,7 +60,8 @@ def parse_args(args):
     parser.add_argument(
         '--version',
         action='version',
-        version='second_bonus-physics1 {ver}'.format(ver=__version__))
+        # version='second_bonus-physics1 {ver}'.format(ver=__version__)
+    )
     parser.add_argument(
         dest="n",
         help="n-th Fibonacci number",
